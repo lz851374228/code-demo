@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./flexible.js"></script>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        .box1{
+            width: 120rem;
+            height: 5rem;
+            background: orange;
+        }
+        .box2{
+            font-size: 1rem
+        }
+        .box3{
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2">测试文字1,该文字大小通过rem设置，动态适配</div>
+    <div class="box3">测试文字2,该文字不设置大小，固定获取body元素上面的font-size，和html根元素的font-size无关，和flexible.js中配置的设备像素比计算有关。</div>
+</body>
+</html>
